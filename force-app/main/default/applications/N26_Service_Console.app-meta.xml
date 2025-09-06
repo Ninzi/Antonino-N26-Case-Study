@@ -32,6 +32,7 @@
     <navType>Console</navType>
     <tabs>standard-Case</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
     <tabs>Product__c</tabs>
     <tabs>N26_Promotion__c</tabs>
     <uiType>Lightning</uiType>
