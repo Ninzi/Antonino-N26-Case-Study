@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ATM_Fee_in_Other_Currencies__c</fullName>
+    <formula>IF( AND( N26_Promotion__r.ATM_Fee_Discount__c&gt;0, Promotion_Start_Date__c &lt;= TODAY() , Promotion_End_Date__c &gt;= TODAY()),  N26_Product__r.ATM_Fee_in_Other_Currencies__c-N26_Product__r.ATM_Fee_in_Other_Currencies__c*N26_Promotion__r.ATM_Fee_Discount__c,
+N26_Product__r.ATM_Fee_in_Other_Currencies__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ATM Fee in Other Currencies</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

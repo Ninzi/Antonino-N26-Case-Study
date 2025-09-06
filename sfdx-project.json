@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "N26CaseStudy",
+  "namespace": "",
+  "sfdcLoginUrl": "https://orgfarm-cd5adf407e-dev-ed.develop.lightning.force.com",
+  "sourceApiVersion": "61.0"
+}
