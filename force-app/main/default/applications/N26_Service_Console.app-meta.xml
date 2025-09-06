@@ -35,7 +35,6 @@
     <tabs>Product__c</tabs>
     <tabs>N26_Promotion__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>N26_Service_Console_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>N26_Promotion__c</tab>
