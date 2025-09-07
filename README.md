@@ -21,3 +21,14 @@ Create then new Cases related to those Contacts.
 In case the N26 Product or N26 Promotion fields are not properly updated on the Contact records try first to clean the N26 cache:
 
 Setup --> Platform Cache --> N26 --> Clear cache
+
+<h3> REST API </h3>
+From an external system they can extract Product information of a contact by using one of those standard Salesforce REST APIs:
+
+1) https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_query.htm
+Execute a GET request to this endpoint:
+https://MyDomainName.my.salesforce.com/services/data/v64.0/query/?q=SELECT+UUID__c,ATM_Fee_in_Other_Currencies__c,Card_Replacement_Cost__c,Cost_per_Calendar_Month__c+from+Contact+where+UUID__c='12345'
+
+2) https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/using_resources_retrieve_with_externalid.htm
+Execute a GET request to this endpoint:
+https://MyDomainName.my.salesforce.com/services/data/v64.0/sobjects/Contact/UUID__c/12345
