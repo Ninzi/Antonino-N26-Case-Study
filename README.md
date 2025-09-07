@@ -9,7 +9,7 @@ See csv files in the repository to upload the following records:
 
 1) Insert "insert products.csv" in Product__c object
 2) Insert "insert n26 promotions.csv" in N26_Promotion__c object
-3) Insert "Product_Promotion_Relationship__c" records relating the above new Products and N26_Promotion__c records. This can be done manually and just add a bunch of them.
+3) Insert "Product_Promotion_Relationship__c" records relating the above new Products and N26_Promotion__c records. This can be done manually going to a Product record page and check for the Product Promotion relationships related list. You can just create few of them for testing.
 4) Insert "insert contacts.csv" in Contact object
 
 <h4>Troubleshooting</h4>
