@@ -1,8 +1,9 @@
 <h4>Pre-requisites</h4>
 Once created the new dev org please complete these pre-requisite steps:
 
-  1) Activate the Multi Currencies setting (Setup --> Company --> Edit --> Activate Multiple Currencies)
-  2) Submit a cache trial request (Setup -->  Platform Cache --> Request Trial Capacity button)
+  1) Activate the Multi Currencies setting (Setup --> Company --> Edit --> Activate Multiple Currencies --> Select EUR as default currency)
+  2) Add new currencies (Setup --> Manage Currencies --> New --> Add GBP currency (and EUR if it's not already there)
+  3) Submit a cache trial request (Setup -->  Platform Cache --> Request Trial Capacity button)
 
 <h4>Data load</h4>
 See csv files in the repository to upload the following records:
