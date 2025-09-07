@@ -1,0 +1,16 @@
+ATM Fee in Other Currencies,Card Replacement Cost,Cost per Calendar Month,Home Country,Product,Product Name,CurrencyIsoCode
+1.7,6,0,ES,Standard,Standard ES,EUR
+1.7,6,0,FR,Standard,Standard FR,EUR
+0,45,,UK,Metal,Metal UK,GBP
+1.7,45,16.9,DE,Metal,Metal DE,EUR
+1.7,6,0,DE,Standard,Standard DE,EUR
+0,45,16.9,FR,Metal,Metal FR,EUR
+0,6,9.9,FR,Black,Black FR,EUR
+1.7,6,0,UK,Standard,Standard UK,GBP
+0,6,9.9,ES,Black,Black ES,EUR
+1.7,6,0,IT,Standard,Standard IT,EUR
+0,6,,UK,Black,Black UK,GBP
+10,6,9.9,DE,Black,Black DE,EUR
+0,6,9.9,IT,Black,Black IT,EUR
+0,45,16.9,ES,Metal,Metal ES,EUR
+0,45,16.9,IT,Metal,Metal IT,EUR
